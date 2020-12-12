@@ -1,18 +1,18 @@
 <head>
-    {% include meta.html %}
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?661d9ef84262a8403f6428308ef70a09";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-    </script>        
+    {% include meta.html %}     
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/style.css">
     <script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous"></script>
     <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
     <link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/Kali-icon.png' | absolute_url }}{% endif %}" type="image/x-icon">
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?661d9ef84262a8403f6428308ef70a09";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>         
 </head>

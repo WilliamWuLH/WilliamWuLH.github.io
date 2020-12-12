@@ -8,7 +8,7 @@ $(document).ready(function() {
   });
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS.load('landing', 'assets/particles.json', function() {});
+  particlesJS.load('landing', '../assets/particles.json', function() {});
 
   // Typing Text
   var element = document.getElementById('txt-rotate');

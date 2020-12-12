@@ -301,6 +301,7 @@ a.navbar-item.is-active {
 }
 
 #post {
+    background-color: #ececec;
     @media (min-width: 768px) {
         margin: auto 2.5vmax;
     }
@@ -314,20 +315,22 @@ a.navbar-item.is-active {
         margin: auto;
     }
     #post-image {
-        border-radius: 0.25rem;
+        border-radius: 1.25rem;
     }
     .subtitle {
         letter-spacing: 0.05rem;
     }
 
     #description {
-        margin-bottom: 1.25vmax;
+        font-size: larger;
+        margin-bottom: 1vmax;
     }
 
     .tag {
         margin: 0.15rem auto;
     }
     .content {
+        padding: 2% 8%;
         ol, ul, blockquote {
             display: inline-block;
         }
@@ -335,6 +338,7 @@ a.navbar-item.is-active {
             background-color: grey;
         }
         img, iframe {
+            text-align: center;
             max-width: calc(100% - 25vw);
             margin: 0.25rem auto;
             @media (max-width: 768px) {
