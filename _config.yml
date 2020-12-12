@@ -1,1 +1,105 @@
-theme: jekyll-theme-minimal
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: 'http://www.wlhan.top/'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: WULH
+# Description of the Site
+description: Welcome To My Kingdom
+# URL of Image of the Site
+site-image: ../images/Kali-icon.png
+# Keywords of the Site
+site-keywords: WULH, Player, Code
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: ../images/Kali1.jpg
+
+# LANDING PAGE
+# username: This will displayed on the landing page as your name.
+username: WULH
+# typing_text: This will be typed before 'scroll down for more'.
+# > set this to your job title, e.g. Fullstack Developer
+typing_text: Welcome To My Kingdom
+# email: Your E-Mail address for the email button.
+email: wulhan@outlook.com
+# For every social button you want to display, set your username or userid
+# If you do not use one of the following websites, then leave it empty
+# > twitter_username:
+github_username: WilliamWuLH
+CSDN_username: qq_43413123
+zhihu_username: wu-dong-52-28-61
+weibo_username: 50hum
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: WULH
+
+# Name of the Author
+author-name: WULH
+# URL for the Image of the Author
+author-image: /assets/images/USA.jpg
+# 60 Words About the Author
+author-about: '🏫 I’m currently studying at Hunan University <br>
+📚 I’m currently learning Machine Learning and Web Development <br>
+😎 Hope to be a Full Stack engineer <br>
+💻 C++ / Java / Python / Javascript / Android <br>
+✅ LeetCode : Step by step! <br>
+📧 Welcome to contact me!'
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/WilliamWuLH
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
